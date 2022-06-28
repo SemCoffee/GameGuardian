@@ -6,5 +6,5 @@ gg.setRanges(gg.REGION_C_DATA)
 gg.searchNumber('E51FF004h',gg.TYPE_DWORD)
 local values = gg.getResults(gg.getResultsCount())
 for _,v in pairs(values)do
-    print(string.format('HOOK: %X \n',v.address - il2cpp_address))
+    print(string.format('HOOK: %X \n',v.address - lib_address))
 end
