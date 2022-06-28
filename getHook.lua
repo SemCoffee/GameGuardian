@@ -1,4 +1,4 @@
--- Get Hook Adress ARMv7
+-- Get Hook Address ARMv7
 -- Pass the name of lib...
 local lib_name = ''
 local lib_address = gg.getRangesList(lib_name)[1]['start']
